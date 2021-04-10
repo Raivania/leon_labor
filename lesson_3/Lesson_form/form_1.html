@@ -99,7 +99,8 @@
                         <input type="text" id="name" required>
                         <label>Имя</label>
                         <br>
-                        <input type="text" id="mail" name="mail" required pattern="(\w+@[a-zA-Z_]+?\.[a-zA-Z]{2-6})">
+                        <input type="text" id="mail" name="mail" required
+                            pattern="^([a-z0-9_-]+\.)*[a-z0-9_-]+@[a-z0-9_-]+(\.[a-z0-9_-]+)*\.[a-z]{2,6}$">
                         <label>E-mail</label>
                         <br>
                         <textarea placeholder="Форма отпарвки"></textarea>
@@ -146,7 +147,8 @@
         </tr>
         <tr>
             <td>
-                <form action="http://fe.it-academy.by/TestForm.php" method="POST" target="_blank" enctype="multipart/form-data">
+                <form action="http://fe.it-academy.by/TestForm.php" method="POST" target="_blank"
+                    enctype="multipart/form-data">
                     <fieldset>
                         <legend>Upload</legend>
                         <label>Файл:</label>
@@ -164,9 +166,10 @@
                 <form action="http://fe.it-academy.by/TestForm.php" method="GET" target="_blank">
                     <fieldset>
                         <legend>Строка поиска</legend>
-                        <input type="text" placeholder="Только русские буквы" pattern="([А-Яа-я])">
+                        <input type="text" placeholder="Только русские буквы" pattern="^[А-Яа-я]+$">
                         <br>
-                        <input type="tel" id="tel" name="tel" placeholder="+375-29-1234567" required pattern="">
+                        <input type="tel" id="tel" name="tel" placeholder="+375-29-1234567" required
+                            pattern="^(\+375|80)-(29|25|44|33)-(\d{3})(\d{2})(\d{2})$">
                         <input type="submit" value="Проверить">
                     </fieldset>
                 </form>
