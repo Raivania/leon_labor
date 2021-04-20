@@ -1,0 +1,28 @@
+div.container{
+    width: 1000px;
+    height: 500px;
+}
+div.a{
+    width: 15em;
+    height: 100%;
+    background-color: gray;
+    float: left;
+}
+div.b{
+    width: 100%;
+    height: 230px;
+    background-color: rgb(163, 157, 157);
+    margin-bottom: 0.2em
+}
+
+div.d{
+    width: 1000px;
+    height: fit-content;
+    background-color: rgb(146, 143, 143);
+    position: fixed;
+    bottom: 180px;
+
+}
+img{
+    float: right;
+}
