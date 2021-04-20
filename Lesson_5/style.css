@@ -1,0 +1,38 @@
+.d{
+    width: 100%;
+    max-width: 500px;
+}
+p.a{
+    position: relative;
+    left: 0px;
+    width: 140px;
+    height: 200px;
+    display: inline-block;
+    background-color: black;
+    background-image: url(cards.png);
+    background-position: 424px -193px;
+    
+
+}
+p.b{
+    position: relative;
+    left: -70px;
+    width: 140px;
+    height: 200px;
+    display: inline-block;
+    background-color: black;
+    background-image: url(cards.png);
+    background-position: 138px -590px;
+
+}
+p.c{
+    position: relative;
+    left: -140px;
+    width: 140px;
+    height: 200px;
+    display: inline-block;
+    background-color: black;
+    background-image: url(cards.png);
+    background-position: 284px -1388px;
+
+}
